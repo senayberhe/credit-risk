@@ -1,0 +1,13 @@
+# Python-generated files
+# Virtual environments
+.venv
+cat > .gitignore << 'EOF'
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/
+*.csv
+.DS_Store
+.env
+EOF

@@ -1,0 +1,23 @@
+[project]
+name = "credit-risk-modeling"
+version = "0.1.0"
+description = "Credit risk modeling in Python — Udemy course companion project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "imbalanced-learn>=0.14.1",
+    "jupyter>=1.1.1",
+    "kaggle>=1.7.4.5",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.9",
+    "notebook>=7.5.6",
+    "numpy>=2.2.6",
+    "optuna>=4.9.0",
+    "pandas>=2.3.3",
+    "plotly>=6.8.0",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "shap>=0.49.1",
+    "xgboost>=3.2.0",
+]
