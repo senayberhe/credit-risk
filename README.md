@@ -63,3 +63,4 @@ uv run python src/utils.py
 - **IV** – Information Value (feature selection for scorecards)
 - **Expected Loss** = PD × LGD × EAD
 # credit-risk
+# credit-risk
