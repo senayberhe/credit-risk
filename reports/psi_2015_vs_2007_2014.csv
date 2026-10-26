@@ -1,0 +1,18 @@
+feature,PSI,Reading
+mths_since_issue_d,13.392275505738649,Significant shift
+initial_list_status,0.33553996873148695,Significant shift
+int_rate,0.07929849658661313,Stable
+dti,0.07814858501199343,Stable
+mths_since_last_record,0.05600118483654694,Stable
+inq_last_6mths,0.053260498310223774,Stable
+verification_status,0.04844965967459594,Stable
+mths_since_earliest_cr_line,0.03341143967504121,Stable
+term,0.013341488226953439,Stable
+purpose,0.012133471042089767,Stable
+mths_since_last_delinq,0.011919748211782086,Stable
+emp_length,0.007908688939076387,Stable
+grade,0.006716431223807637,Stable
+annual_inc,0.005323409311650265,Stable
+home_ownership,0.004232088404761024,Stable
+addr_state,0.003833533543437711,Stable
+acc_now_delinq,0.0008315731498833625,Stable

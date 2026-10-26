@@ -1,13 +1,13 @@
-# Python-generated files
-# Virtual environments
-.venv
-cat > .gitignore << 'EOF'
+# Environment
 .venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-data/
-*.csv
-.DS_Store
 .env
-EOF
+.DS_Store
+
+# Data (LendingClub files are 100MB+; download them, see README)
+data/
+notebooks/*.csv
+*.csv
+!reports/*.csv

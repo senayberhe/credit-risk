@@ -81,9 +81,11 @@ def plot_by_woe(df_WoE, rotation_x_axis_labels=0):
 
 def preproc_target(loan_data):
     """Create good_bad target: 0 = bad/default, 1 = good."""
+    # FIX: the data spells it 'Status:Charged Off' (no space, no period); the old
+    # string matched nothing, so 761 written-off loans were labelled good.
     bad_def = [
         'Charged Off', 'Default',
-        'Does not meet the credit policy. Status: Charged Off.',
+        'Does not meet the credit policy. Status:Charged Off',
         'Late (31-120 days)'
     ]
     loan_data['good_bad'] = np.where(loan_data['loan_status'].isin(bad_def), 0, 1)
